@@ -4,7 +4,7 @@ ourForm.addEventListener('submit', e => {
   e.preventDefault();
   const delay = Number(e.target.elements[0].value);
   const step = Number(e.target.elements[1].value);
-  const amount = Number(e.target.element[2].value);
+  const amount = Number(e.target.elements[2].value);
 
   for (let i = 0; 1 < amount; i++) {
     createPromise(i, delay + i * step)
